@@ -1,0 +1,32 @@
+# Never commit real API keys
+fastagent.secrets.yaml
+
+# Virtual environment
+env-name/
+venv/
+.venv/
+
+# Generated output
+skills/
+runs/
+results.csv
+
+# Logs and runtime data
+*.json
+*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
