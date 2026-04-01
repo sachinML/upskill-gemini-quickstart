@@ -1,0 +1,16 @@
+# UPskill configuration for Gemini demo
+#
+# Teacher model: Gemini 2.5 Pro  — generates and refines the skill
+# Student model: Gemini 2.0 Flash — evaluated with and without the skill
+
+skill_generation_model: google.gemini-2.5-pro
+test_gen_model: google.gemini-2.5-pro
+eval_model: google.gemini-2.5-flash
+
+skills_dir: ./skills
+runs_dir: ./runs
+
+max_refine_attempts: 2
+executor: local
+num_runs: 1
+max_parallel: 5
