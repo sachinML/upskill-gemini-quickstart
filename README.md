@@ -1,5 +1,3 @@
-below is the current readme
-
 # UPskill × Gemini Quickstart
 
 Run UPskill using **Google Gemini** — no Anthropic key needed.
