@@ -187,6 +187,6 @@ upskill-gemini-quickstart/
 → Activate your venv first: `source venv/bin/activate`
 
 **Skill lift is 0% or negative**
-→ The task may be too easy for the student model — it already knows the answer.
+→ The task may be too easy for the student model, it already knows the answer.
   Try a more specific or niche task where Flash genuinely struggles without guidance.
-  Avoid common tasks like "write git commits" — all models already do those well.
+  Avoid common tasks like "write git commits". all models already do those well.
