@@ -121,6 +121,11 @@ Evaluate an existing skill again on a different model:
 upskill eval ./skills/<skill-name>/ -m google.gemini-2.5-flash
 ```
 
+> **Tip:** If `skill_meta.json` has `"tests": []`, upskill regenerates test cases from
+> Gemini Pro on every eval run. To save tests permanently and avoid repeated API calls,
+> run `generate` once without `--no-eval` so the full pipeline completes and persists the tests.
+
+
 List all generated skills:
 
 ```bash
